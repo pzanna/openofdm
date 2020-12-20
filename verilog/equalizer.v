@@ -27,7 +27,7 @@ module equalizer
 
     // for side channel
     output wire [31:0] csi,
-    output wire csi_valid
+    output wire csi_valid,
 
     // for WP4
     output wire [31:0] mag_sq_out,

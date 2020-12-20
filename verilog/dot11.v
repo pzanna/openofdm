@@ -389,7 +389,7 @@ equalizer equalizer_inst (
     .state(equalizer_state),
 
     .csi(csi),
-    .csi_valid(csi_valid)
+    .csi_valid(csi_valid),
 
     .mag_sq_out(mag_sq_out),
     .pilot_phase_out(pilot_phase_out)
