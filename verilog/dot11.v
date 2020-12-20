@@ -55,7 +55,7 @@ module dot11 (
     // sync short
     output short_preamble_detected,
     output [31:0] phase_offset,
-    output [31:0] phase_offset_full_out,
+    output wire [31:0] phase_offset_full_out,
 
     // sync long
     output [31:0] sync_long_metric,
@@ -71,8 +71,8 @@ module dot11 (
     output equalizer_out_strobe,
     output [2:0] equalizer_state,
     output wire ofdm_symbol_eq_out_pulse,
-    output [31:0] mag_sq_out,
-    output [31:0] pilot_phase_out,
+    output wire [31:0] mag_sq_out,
+    output wire [31:0] pilot_phase_out,
 
     // legacy signal info
     output reg legacy_sig_stb,
