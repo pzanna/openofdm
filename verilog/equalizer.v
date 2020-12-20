@@ -31,7 +31,7 @@ module equalizer
 
     // for WP4
     output wire [31:0] mag_sq_out,
-    output wire [31:0] pilot_phase_out,
+    output wire [31:0] pilot_phase_out
 );
 
 
